@@ -3,7 +3,7 @@
 
 Develop board:
 
-  - [NodeMCU V2 ESP8266-12E](https://detail.tmall.com/item.htm?id=535588732894&spm=a1z09.2.0.0.kPM6Dz&_u=cktg8o8364)
+  - [NodeMCU V1.0 ESP-12E](https://detail.tmall.com/item.htm?id=535588732894&spm=a1z09.2.0.0.kPM6Dz&_u=cktg8o8364)
   
 The following sensors:
 
