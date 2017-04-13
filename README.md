@@ -21,8 +21,8 @@
     state_topic: "sensor/noise"
     
     unit_of_measurement: "dB"
- 
-   - platform: mqtt
+    
+  - platform: mqtt
    
     name: temperature
     
