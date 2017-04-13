@@ -6,7 +6,7 @@
  
  sensor:
  
-   -- platform: mqtt
+   - platform: mqtt
    
     name: temperature
     
@@ -14,7 +14,7 @@
     
     unit_of_measurement: "°C"
     
-  -- platform: mqtt
+  - platform: mqtt
   
     name: humidity
     
@@ -22,7 +22,7 @@
     
     unit_of_measurement: "%"
  
- -- platform: mqtt
+  - platform: mqtt
  
     name: pm1
     
@@ -30,7 +30,7 @@
     
     unit_of_measurement: "ug/m³"
     
-  -- platform: mqtt
+  - platform: mqtt
   
     name: pm25
     
@@ -38,7 +38,7 @@
     
     unit_of_measurement: "ug/m³"
     
-  -- platform: mqtt
+  - platform: mqtt
   
     name: pm10
     
@@ -46,7 +46,7 @@
     
     unit_of_measurement: "ug/m³"
     
-  -- platform: mqtt
+  - platform: mqtt
   
     name: light
     
@@ -54,7 +54,7 @@
     
     unit_of_measurement: "%"
     
-  -- platform: mqtt
+  - platform: mqtt
   
     name: noise
     
@@ -62,7 +62,7 @@
     
     unit_of_measurement: "dB"
     
-  -- platform: mqtt
+  - platform: mqtt
     
     name: Ch2o
     
