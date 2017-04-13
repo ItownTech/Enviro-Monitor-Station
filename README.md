@@ -77,7 +77,7 @@ Develop board:
   
 The following sensors:
 
-  - [LDR sensor KY-018](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-14162336577.66.cagcOb&id=543102525121)
+  - [LDR sensor](https://item.taobao.com/item.htm?spm=2013.1.20141002.5.duusCn&scm=1007.10009.70205.100200300000001&id=531468405248&pvid=dccb63ed-4bc3-4cb6-bc94-2e1cae9f4917)
   - [24bit WS2812 5050 RGB LED](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.kPM6Dz&id=540785401008&_u=cktg8o42f1)
   - [DHT22 sensor AM2302](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-14162336577.22.MHbiq5&id=543447398813)
   - [MQ-2 sensor](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-14162336577.18.9clTO2&id=531451462058)
