@@ -1,24 +1,8 @@
 # Enviro-Monitor-Station
 
-The following sensor topic:
-
- temperature_topic "sensor/temperature" 
+ How to use in home-assistant?
  
- humidity_topic    "sensor/humidity"    
- 
- luminosity_topic  "sensor/luminosity"   
- 
- ch2o_topic        "sensor/ch2o" 
- 
- pm1_topic         "sensor/pm1" 
- 
- pm2_5_topic       "sensor/pm25" 
- 
- pm10_topic        "sensor/pm10" 
- 
- How to use in home-assistant:
- 
- you can add the following in your configuration.yaml
+ You can add the following sensor topic in your configuration.yaml
  
  sensor:
  
