@@ -6,6 +6,22 @@
  
  sensor:
  
+  - platform: mqtt
+  
+    name: light
+    
+    state_topic: "sensor/luminosity"
+    
+    unit_of_measurement: "%"
+    
+  - platform: mqtt
+  
+    name: noise
+    
+    state_topic: "sensor/noise"
+    
+    unit_of_measurement: "dB"
+ 
    - platform: mqtt
    
     name: temperature
@@ -44,24 +60,8 @@
     
     state_topic: "sensor/pm10"
     
-    unit_of_measurement: "ug/m³"
-    
-  - platform: mqtt
-  
-    name: light
-    
-    state_topic: "sensor/luminosity"
-    
-    unit_of_measurement: "%"
-    
-  - platform: mqtt
-  
-    name: noise
-    
-    state_topic: "sensor/noise"
-    
-    unit_of_measurement: "dB"
-    
+    unit_of_measurement: "ug/m³"    
+      
   - platform: mqtt
     
     name: Ch2o
