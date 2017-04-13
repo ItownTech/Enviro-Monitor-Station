@@ -1,5 +1,53 @@
 # Enviro-Monitor-Station
 
+The following sensor topic:
+
+ temperature_topic "sensor/temperature" 
+ humidity_topic    "sensor/humidity"    
+ luminosity_topic  "sensor/luminosity"   
+ ch2o_topic        "sensor/ch2o" 
+ pm1_topic         "sensor/pm1" 
+ pm2_5_topic       "sensor/pm25" 
+ pm10_topic        "sensor/pm10" 
+ 
+ How to use in home-assistant:
+ you can add the following in your configuration.yaml
+ 
+ sensor:
+ 
+   - platform: mqtt
+    name: temperature
+    state_topic: "sensor/temperature"
+    unit_of_measurement: "°C"
+  - platform: mqtt
+    name: humidity
+    state_topic: "sensor/humidity"
+    unit_of_measurement: "%"
+  - platform: mqtt
+    name: pm1
+    state_topic: "sensor/pm1"
+    unit_of_measurement: "ug/m³"
+  - platform: mqtt
+    name: pm25
+    state_topic: "sensor/pm25"
+    unit_of_measurement: "ug/m³"
+  - platform: mqtt
+    name: pm10
+    state_topic: "sensor/pm10"
+    unit_of_measurement: "ug/m³"
+  - platform: mqtt
+    name: light
+    state_topic: "sensor/luminosity"
+    unit_of_measurement: "%"
+  - platform: mqtt
+    name: noise
+    state_topic: "sensor/noise"
+    unit_of_measurement: "dB"
+  - platform: mqtt
+    name: Ch2o
+    state_topic: "sensor/ch2o"
+    unit_of_measurement: "mg/m³"
+    
 
 Develop board:
 
