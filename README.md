@@ -6,7 +6,7 @@
  
  sensor:
  
-  - platform: mqtt
+  - - platform: mqtt
   
     name: light
     
