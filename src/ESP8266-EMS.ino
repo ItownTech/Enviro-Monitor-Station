@@ -26,8 +26,8 @@
 
 #include <SoftwareSerial.h>  //软件模拟第二个串口
 
-#define WIFI_SSID        "Leon"
-#define WIFI_PASSWORD    "What14Net007"
+#define WIFI_SSID        "wifi_ssid"
+#define WIFI_PASSWORD    "wifi_pass"
 
 #define MQTT_SERVER       "10.25.73.254"
 #define MQTT_PORT         1883                      // use 8883 for SSL
